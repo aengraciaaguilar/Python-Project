@@ -6,7 +6,7 @@
 import pyttsx3
 import PyPDF2
 
-# declaring variables
+# declaring variables and utilizing the open and rb function
 book = open("quiz.pdf","rb")
 pdfReader = PyPDF2.PdfFileReader(book)
 pages = pdfReader.numPages
