@@ -22,3 +22,5 @@ page = pdfReader.getPage(0)
 text = page.extractText()
 speaker.say(text)
 speaker.runAndWait()
+
+# reference/s: https://www.youtube.com/watch?v=kyZ_5cvrXJI&t=292s
