@@ -11,4 +11,9 @@ book = open("quiz.pdf","rb")
 pdfReader = PyPDF2.PdfFileReader(book)
 pages = pdfReader.numPages
 
+# utilizing the print statements
+print("number of pages in the pdf:", pages)
+print("-----------------------------------"
+      "\nI am now reading......Kindly listen")
+
 
