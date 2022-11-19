@@ -16,4 +16,9 @@ print("number of pages in the pdf:", pages)
 print("-----------------------------------"
       "\nI am now reading......Kindly listen")
 
-
+# enabling the packages imported
+speaker = pyttsx3.init()
+page = pdfReader.getPage(0)
+text = page.extractText()
+speaker.say(text)
+speaker.runAndWait()
